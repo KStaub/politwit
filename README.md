@@ -2,6 +2,10 @@
 
 ## Examining political speech on social media
 
+### Tyler Nevell and Kyle Staub
+
+### GitHub link: https://github.com/KStaub/politwit
+
 #### Dataset
 
 * Origin: 
@@ -41,8 +45,12 @@
     
 #### Goal
 
-Seeking to understand statistical relationships between certain words and certain message types as determined by qualified human assessors. 
+Seeking to predict relationships between certain words and certain message types as determined by qualified human assessors. To do so, we will apply both a Naive Bayes (NB) Classifier and a Support Vector Machine (SVM).  
 
-#### Data provenance and trustworthiness considerations
-#### Data cleaning
-#### Data meanings and confidence usage in statistical look
+- <b>Hypothesis \#1</b>: Our SVM classifier will be a better predictor than our NB classifier.
+- <b>Hypothesis \#2</b>: Certain words will be highly correlated with certain messages. For instance, we anticipate the following text/message pairs to be highly correlated:
+    * Obama > attack
+    * veterans > support
+    * proud > support
+    * bill > policy
+    * ICYMI > media
